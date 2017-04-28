@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo');
+@import url('https://fonts.googleapis.com/css?family=Baloo|Lato');
+
+body, html{
+  height: 100%;
+  width: 100%;
+  background-color: #092b40;
+}
+
+body{
+  opacity: 0;
+  visibility: visible;
+}
+
+.white{
+  color: white;
+}
+
+.wrapper{
+  height: 100%;
+  width: 100%;
+  display: table;
+}
+
+.container{
+  display: table-cell;
+  vertical-align: middle;
+  padding: 0 15%;
+}
+
+a.random-article, p.tosearch{
+  padding: 15px;
+  display: inline-block;
+  font-size: 20px;
+  font-family: 'Baloo', cursive;
+}
+
+a.random-article:hover, a.random-article:visited, a.random-article:link{
+  color: white;
+  text-decoration: none;
+}
+
+form{
+  /*border: 1px solid blue;*/
+}
+
+input[type=text]{
+  border: 3px solid orange;
+  border-radius: 30px;
+  padding: 8px 15px;
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+  background-color: #092b40;
+  color: orange;
+  width: 45px;
+  cursor: pointer;
+  transition: all .3s ease-in-out;
+  text-align: center;
+  position: relative;
+}
+
+.wrapper-input{
+  /*border: 1px solid red;*/
+  position: relative;
+}
+
+.wrapper-input::before{
+  content: "";
+  position: absolute;
+  background-color: orange;
+  top: 18px;
+  right: 5px;
+  width: 3px;
+  height: 20px;
+  transform-origin: top;
+  transform: rotate(-45deg);
+}
+
+input[type=text]:focus{
+  outline: 0;
+  width: 30%;
+}

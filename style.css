@@ -43,7 +43,7 @@ a.random-article:hover, a.random-article:visited, a.random-article:link{
 input[type=text]{
   border: 3px solid orange;
   border-radius: 30px;
-  padding: 8px 15px;
+  padding: 8px 25px 8px 15px;
   font-size: 16px;
   font-family: 'Lato', sans-serif;
   background-color: #092b40;
@@ -88,4 +88,21 @@ input[type=text]:focus{
   cursor: pointer;
   opacity: 0;
   transition: all .5s ease;
+}
+
+.article{
+  background-color: white;
+  color: black;
+  font-family: 'Lato', sans-serif;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+
+.article:hover {
+  border-left: 5px solid #D96F32;
+  margin-left: -5px;
+}
+
+h3{
+  font-family: 'Baloo', cursive;
 }

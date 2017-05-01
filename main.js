@@ -1,7 +1,7 @@
 window.onload = function(){
 
   //Complete Url
-  window.location.replace(window.location.href + '?#');
+  window.location.replace('https://silvestrevivo.github.io/wikipedia-viewer/?#');
 
   //variable declararions
   var styleSheet = document.styleSheets[3];

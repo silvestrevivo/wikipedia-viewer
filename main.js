@@ -1,7 +1,7 @@
 window.onload = function(){
 
   //Complete Url
-  window.location.hash = '?#';
+  window.location.replace(window.location.href + '?#');
 
   //variable declararions
   var styleSheet = document.styleSheets[3];

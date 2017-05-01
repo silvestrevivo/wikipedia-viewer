@@ -1,5 +1,8 @@
 window.onload = function(){
 
+  //Complete Url
+  window.location.hash = '?#';
+
   //variable declararions
   var styleSheet = document.styleSheets[3];
   var input = document.getElementById('input');
